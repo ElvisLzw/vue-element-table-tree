@@ -75,7 +75,7 @@ export default {
     /**
      * 合并表格
      */
-    arraySpanMethod({ row, column, rowIndex, columnIndex }) {
+    arraySpanMethod({ rowIndex, columnIndex }) {
       if (this.spanKey.length) {
         for (let keyIndex = 0; keyIndex < this.spanKey.length; keyIndex++) {
           // 找到指定需要合并的列，应用合并规则
